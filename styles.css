@@ -1,3 +1,4 @@
+
 body{
     font-family: Verdana, Arial, sans-serif;
     background-color:#eed5c5;
@@ -7,9 +8,22 @@ body{
     margin-right:100px;
 }
 
-h1{
+div.first{
+    border:2px solid #3f231b;
+    padding:30px;
+}
+section.second{
+    display:inline-block;
+    width:600px;
+    text-align:justify;
+    vertical-align:top;
+    margin: 0px 15px;
+}
+.recipe-title{
     color:#3f231b;
     font-size:50px;
+    display:inline-block;
+    margin:0px;
 }
 #main-title{
     font-size: 65px;
@@ -38,7 +52,8 @@ h2{
 h2,
 ol,
 ul,
-p{margin-right:400px;}
+p{margin-right:0px;}
+
 h2.homepage{
     background-color:transparent;
 }
@@ -47,7 +62,17 @@ a{
     color:brown;
 }
 
-img{
-    height:350px;
-    width:auto;
+.image{
+    display:inline-block;
+    width:600px;
+    height:200px;
+    margin: 0px 15px;
+}
+div img{
+    border: 2px solid #3f231b;
+    display:inline-block;
+    vertical-align:bottom;
+    object-fit:cover;
+    width:100%;
+    height:100%;
 }
