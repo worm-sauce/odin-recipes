@@ -1,17 +1,16 @@
 
 body{
     font-family: Verdana, Arial, sans-serif;
-    background-color:#f3e3e3;
-    color:#25130e;
+    background-color:#eed5c5;
+    color:#3f231b;
     font-size:18px;
     margin-left:100px;
     margin-right:100px;
 }
 
 div.first{
-    box-sizing:border-box;
-    border:4px solid #dfb499;
-    padding:25px;
+    border:2px solid #3f231b;
+    padding:30px;
 }
 section.second{
     display:inline-block;
@@ -21,15 +20,15 @@ section.second{
     margin: 0px 15px;
 }
 .recipe-title{
-    color:#25130e;
+    color:#3f231b;
     font-size:50px;
     display:inline-block;
-    margin:0px;  
+    margin:0px;
 }
 #main-title{
     font-size: 65px;
     text-align:center;
-    background-color: #25130e;
+    background-color: #3f231b;
     color:#eed5c5;
     margin-left:300px;
     margin-right:300px;
@@ -43,11 +42,11 @@ section.second{
     margin-right:0px;
 }
 #recipe-list a{
-    color:#25130e;
+    color:#3f231b;
 }
 
 h2{
-    background-color:#dfb49971;
+    background-color:#caa792;
     padding-left:40px;
 }
 h2,
@@ -70,7 +69,7 @@ a{
     margin: 0px 15px;
 }
 div img{
-    border: 2px solid #25130e;
+    border: 2px solid #3f231b;
     display:inline-block;
     vertical-align:bottom;
     object-fit:cover;
