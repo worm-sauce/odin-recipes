@@ -3,16 +3,8 @@ body{
     background-color:#eed5c5;
     color:#3f231b;
     font-size:18px;
-}
-
-#recipe-list{
-    font-size:30px;
-    text-align:center;
-    font-weight:bold;
-    color:transparent;
-}
-#recipe-list a{
-    color:#3f231b;
+    margin-left:100px;
+    margin-right:100px;
 }
 
 h1{
@@ -24,11 +16,29 @@ h1{
     text-align:center;
     background-color: #3f231b;
     color:#eed5c5;
+    margin-left:300px;
+    margin-right:300px;
+}
+
+#recipe-list{
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    color:transparent;
+    margin-right:0px;
+}
+#recipe-list a{
+    color:#3f231b;
 }
 
 h2{
     background-color:#caa792;
+    padding-left:40px;
 }
+h2,
+ol,
+ul,
+p{margin-right:400px;}
 h2.homepage{
     background-color:transparent;
 }
