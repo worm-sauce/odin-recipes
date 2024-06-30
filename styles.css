@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+    background-color:#eed5c5;
+    color:#3f231b;
+    font-size:18px;
+}
+
+#recipe-list{
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    color:transparent;
+}
+#recipe-list a{
+    color:#3f231b;
+}
+
+h1{
+    color:#3f231b;
+    font-size:50px;
+}
+#main-title{
+    font-size: 65px;
+    text-align:center;
+    background-color: #3f231b;
+    color:#eed5c5;
+}
+
+h2{
+    background-color:#caa792;
+}
+h2.homepage{
+    background-color:transparent;
+}
+
+a{
+    color:brown;
+}
+
+img{
+    height:350px;
+    width:auto;
+}
